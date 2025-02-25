@@ -1,0 +1,25 @@
+{
+    "name": "app-service-hello-world",
+    "description": "Simple Hello World Node.js sample for Azure App Service",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Microsoft",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.2"
+    },
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rpat9/rp-web-diceroller-nodejs.git"
+    },
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/rpat9/rp-web-diceroller-nodejs/issues"
+    },
+    "homepage": "https://github.com/rpat9/rp-web-diceroller-nodejs#readme"
+}
