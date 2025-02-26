@@ -7,7 +7,13 @@ const cors = require('cors');
 const app = express();
 
 // Enable CORS to allow cross-origin requests from my already deployed website
-app.use(cors());
+app.use(cors({
+    origin: 'https://rp-web-dice-roller-atepbua2gtd7ajdm.centralus-01.azurewebsites.net'
+}));
+
+app.get('/', (req, res) => {
+    res.send('API home page. Try /api/roll to roll dices for diceroller.');
+});
 
 // Roll the dice
 app.get('/api/roll', (req, res) => {
