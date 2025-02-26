@@ -8,7 +8,7 @@ const app = express();
 
 // Enable CORS to allow cross-origin requests from my already deployed website
 app.use(cors({
-    origin: 'https://rp-web-dice-roller-atepbua2gtd7ajdm.centralus-01.azurewebsites.net'
+    origin: 'https://rp-web-dice-roller-d4bxhpezaafbdnca.centralus-01.azurewebsites.net/'
 }));
 
 app.get('/', (req, res) => {
