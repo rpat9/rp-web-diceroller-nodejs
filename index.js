@@ -26,5 +26,5 @@ app.get('/api/roll', (req, res) => {
 // Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-    console.log(`Backend API runningon port ${PORT}`);
+    console.log(`Backend API running on port ${PORT}`);
 });
